@@ -126,9 +126,8 @@ Endereco.prototype.reverter = function () {
     return this.textoOriginal;
 };
 
-// const texto = new Endereco('Rua Desembargador Juarez Mattos Barreto Bezerra de Menezes', 15);
+ const texto = new Endereco('Rua Desembargador Juarez Mattos Barreto Bezerra de Menezes', 15);
 // const texto = new Endereco('Rua Armando Ramos', 22);
-const texto = new Endereco('Rua Professora Maria Salete de Castro Marmo', 22);
 
 console.log(texto.abreviar())
 console.log(texto.reverter())
